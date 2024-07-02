@@ -1,0 +1,95 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #5D8390;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #000000;
+    height: 65px;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.texto {
+    font-size: 45px;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.defout {
+    color: #adafb2;
+}
+
+ul#countdown {
+    display: flex;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 0 20px 0;
+    color: #fff;
+    border: 1px solid #adafb2;
+    border-width: 1px 0;
+    overflow: hidden;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+}
+
+ul#countdown li {
+    margin: 0 -3px 0 0;
+    padding: 0;
+    display: inline-block;
+    width: 25%;
+    font-size: 72px;
+    font-size: 6vw;
+    text-align: center;
+}
+
+ul#countdown li .label {
+    color: #ffffff;
+    font-size: 18px;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}

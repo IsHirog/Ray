@@ -1,0 +1,23 @@
+body{
+    
+    background-color: black;
+}
+main{
+    border: 5px solid white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
