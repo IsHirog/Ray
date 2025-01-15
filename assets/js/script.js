@@ -1,5 +1,5 @@
 function updateCountup() {
-    const startDate = new Date("March 06, 2024 00:00:00").getTime();
+    const startDate = new Date("March 06, 2024 06:35:09").getTime();
     const now = new Date().getTime();
     const elapsed = now - startDate;
 
