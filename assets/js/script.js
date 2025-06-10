@@ -19,7 +19,7 @@ function updateCountup() {
 function checkAno(date) {
     const day = date.getDate();
 
-    if (day === 10) {
+    if (day === 6) {
         startConfettiAndHearts();
     }
 }
