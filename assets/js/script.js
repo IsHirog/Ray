@@ -1,5 +1,5 @@
 function updateCountup() {
-    const startDate = new Date("June 10, 2024 00:00:00").getTime();
+    const startDate = new Date("March 06, 2024 06:35:09").getTime();
     const now = new Date();
     const elapsed = now.getTime() - startDate;
 
@@ -23,7 +23,6 @@ function checkAno(date) {
         startConfettiAndHearts();
     }
 }
-
 function startConfettiAndHearts() {
     const colors = ['#ff0a54', '#ff477e', '#ff85a1', '#fbb1b9', '#f9bec7'];
     const hearts = ['❤️', '💖', '💘', '💕', '💝'];
